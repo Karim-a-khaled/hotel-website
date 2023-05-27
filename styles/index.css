@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.navigation a{
+  padding: 21px;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a.current{
+  color: #f7c08a;
+  background-color: #444;
+}
+
+.showcase{
+  height: 600px;
+  background: url(../assets/showcase.jpg) center center / cover no-repeat;
+}
+
+.container-2{
+  margin: 0 auto;
+  width: 75%;
+}
+
+.content{
+  text-align: center;
+  padding-top: 170px;
+
+}
+
+span{
+  color: #f7c08a;
+}
+
+.first-p{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.stay{
+  margin-top: 10px; 
+  width: 600px;
+  margin: 15px auto;
+}
+
+.second-p{
+  font-weight: 700;
+}
+
+.about-btn{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.read-more{
+  padding: 20px 25px;
+  margin-top: 20px;
+}
+
+.about-btn:hover,.read-more:hover{
+  background-color: #f7c08a;
+  cursor: pointer;
+}
+
+.history{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-history{
+  font-size: 27px;
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+}
+
+.history-bold-p{
+  margin-bottom: 30px;
+  font-weight: 700;                          
+}
+
+.history-title{
+  color: #f7c08a;
+}
+
+footer{
+  background-color: #444444;
+  height: 80px;
+  text-align: center;
+}
+.footer-p{
+  padding: 30px;
+}
+
+.acomodation{
+  display: flex;
+}
+
+.acomodation div{
+  background-color: #f4f4f4 ;
+  color: black;
+  padding: 35px;
+  text-align: center;
+  height: 250px;
+}
+
+.free-meals{
+  background-color: #f7c08a !important;
+}
+.acomodation div p{
+  margin-top: 30px;
+}
+
+

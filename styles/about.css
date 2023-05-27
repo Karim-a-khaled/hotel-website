@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-showcase{
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  background-color: white;
+  padding: 10px 150px;
+  align-items: center;
+}
+
+.info{
+  width: 40%;
+}
+
+.info-heading{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h1{
+  /* margin-bottom: 10px; */
+}
+
+.about-img{
+  border-radius: 50%;
+}
